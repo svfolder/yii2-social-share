@@ -79,7 +79,11 @@ class SocialShare extends Widget
      * @var array
      */
     public $linkContainerOptions = ['tag' => 'li'];
-
+    /**
+     * Container for icon.
+     * @var string
+     */
+    public $iconContainer = 'i';
 
     /**
      * Initialize the widget: gets configurator instance,
@@ -179,7 +183,7 @@ class SocialShare extends Widget
     protected function getLinkLabel($driverConfig, $defaultLabel)
     {
         return $this->isIconsEnabled()
-            ? Html::tag('i', '', ['class' => $this->configurator->getIconSelector($driverConfig['class'])])
+            ? Html::tag($this->iconContainer, '', ['class' => $this->configurator->getIconSelector($driverConfig['class'])])
             : (isset($driverConfig['label']) ? $driverConfig['label'] : $defaultLabel);
     }
 
