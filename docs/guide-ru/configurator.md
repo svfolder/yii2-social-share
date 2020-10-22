@@ -22,8 +22,8 @@
 ```php
 'enableIcons' => true,
 'icons' => [
-    \ymaker\social\share\drivers\Twitter::class => 'icon-twitter', // CSS класс
-    \ymaker\social\share\drivers\Facebook::class => 'icon-facebook',  // CSS класс
+    \svfolder\social\share\drivers\Twitter::class => 'icon-twitter', // CSS класс
+    \svfolder\social\share\drivers\Facebook::class => 'icon-facebook',  // CSS класс
 ],
 ```
 

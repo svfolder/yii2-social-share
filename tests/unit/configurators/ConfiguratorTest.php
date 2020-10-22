@@ -5,14 +5,14 @@
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\social\share\tests\unit\configurators;
+namespace svfolder\social\share\tests\unit\configurators;
 
 use Codeception\Test\Unit;
-use ymaker\social\share\configurators\Configurator;
-use ymaker\social\share\configurators\ConfiguratorInterface;
-use ymaker\social\share\configurators\IconsConfigInterface;
-use ymaker\social\share\configurators\SeoConfigInterface;
-use ymaker\social\share\drivers\Telegram;
+use svfolder\social\share\configurators\Configurator;
+use svfolder\social\share\configurators\ConfiguratorInterface;
+use svfolder\social\share\configurators\IconsConfigInterface;
+use svfolder\social\share\configurators\SeoConfigInterface;
+use svfolder\social\share\drivers\Telegram;
 
 /**
  * Test case for default configurator.

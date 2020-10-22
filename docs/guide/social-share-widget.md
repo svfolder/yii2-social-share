@@ -5,7 +5,7 @@ Social share widget
 
 | Option                | Description                                                                               | Type                                                                  | Default                                       |
 |-----------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------|
-|configurator           |ID of component from app config, configuration array or object of configurator             |string|array|ymaker\social\share\configurators\ConfiguratorInterface   |-                                              |
+|configurator           |ID of component from app config, configuration array or object of configurator             |string|array|svfolder\social\share\configurators\ConfiguratorInterface   |-                                              |
 |url                    |Absolute URL to share page                                                                 |string                                                                 |Result of `Url::to('', true)`                  |
 |title                  |Title of share page                                                                        |string                                                                 |-                                              |
 |description            |Description of share page                                                                  |string                                                                 |-                                              |
@@ -30,10 +30,10 @@ Social share widget
 
 ```php
 'driverProperties' => [
-    \ymaker\social\share\drivers\Twitter::class => [
+    \svfolder\social\share\drivers\Twitter::class => [
         'account' => 'yiimaker'
     ],
-    \ymaker\social\share\drivers\Tumblr::class => [
+    \svfolder\social\share\drivers\Tumblr::class => [
         'shareUrl' => \common\helpers\UrlHelper::gallaryPageUrl(),
         'tags' => ['apartments', 'planning'],
     ],

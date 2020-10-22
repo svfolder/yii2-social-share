@@ -5,11 +5,11 @@
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\social\share\tests\unit\drivers;
+namespace svfolder\social\share\tests\unit\drivers;
 
 use Codeception\Test\Unit;
-use ymaker\social\share\base\AbstractDriver;
-use ymaker\social\share\drivers\Yahoo;
+use svfolder\social\share\base\AbstractDriver;
+use svfolder\social\share\drivers\Yahoo;
 
 /**
  * Test case for [[Yahoo]] driver.

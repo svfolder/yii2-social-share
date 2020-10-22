@@ -5,15 +5,15 @@
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\social\share\tests\unit\widgets;
+namespace svfolder\social\share\tests\unit\widgets;
 
 use Codeception\Test\Unit;
 use Yii;
 use yii\base\InvalidConfigException;
-use ymaker\social\share\widgets\SocialShare;
+use svfolder\social\share\widgets\SocialShare;
 
 /**
- * Test case for  [[ymaker\social\share\widgets\SocialShare]].
+ * Test case for  [[svfolder\social\share\widgets\SocialShare]].
  *
  * @property-read \UnitTester $tester
  *

@@ -5,7 +5,7 @@
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\social\share\base;
+namespace svfolder\social\share\base;
 
 /**
  * Base class for drivers for mail services like Gmail and Yahoo.

@@ -5,11 +5,11 @@
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\social\share\tests\unit\drivers;
+namespace svfolder\social\share\tests\unit\drivers;
 
 use Codeception\Test\Unit;
 use Yii;
-use ymaker\social\share\drivers\Facebook;
+use svfolder\social\share\drivers\Facebook;
 
 /**
  * Test case for [[Facebook]] driver.

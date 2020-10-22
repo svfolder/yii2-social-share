@@ -5,23 +5,23 @@
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\social\share\configurators;
+namespace svfolder\social\share\configurators;
 
 use yii\base\BaseObject;
 use yii\helpers\ArrayHelper;
-use ymaker\social\share\drivers\Facebook;
-use ymaker\social\share\drivers\GooglePlus;
-use ymaker\social\share\drivers\LinkedIn;
-use ymaker\social\share\drivers\Gmail;
-use ymaker\social\share\drivers\Trello;
-use ymaker\social\share\drivers\WhatsApp;
-use ymaker\social\share\drivers\Telegram;
-use ymaker\social\share\drivers\Pinterest;
-use ymaker\social\share\drivers\Tumblr;
-use ymaker\social\share\drivers\Twitter;
-use ymaker\social\share\drivers\Vkontakte;
-use ymaker\social\share\drivers\Yahoo;
-use ymaker\social\share\drivers\Odnoklassniki;
+use svfolder\social\share\drivers\Facebook;
+use svfolder\social\share\drivers\GooglePlus;
+use svfolder\social\share\drivers\LinkedIn;
+use svfolder\social\share\drivers\Gmail;
+use svfolder\social\share\drivers\Trello;
+use svfolder\social\share\drivers\WhatsApp;
+use svfolder\social\share\drivers\Telegram;
+use svfolder\social\share\drivers\Pinterest;
+use svfolder\social\share\drivers\Tumblr;
+use svfolder\social\share\drivers\Twitter;
+use svfolder\social\share\drivers\Vkontakte;
+use svfolder\social\share\drivers\Yahoo;
+use svfolder\social\share\drivers\Odnoklassniki;
 
 /**
  * Configurator for social network drivers.

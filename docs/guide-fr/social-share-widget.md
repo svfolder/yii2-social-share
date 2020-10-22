@@ -5,7 +5,7 @@
 
 | Option                | Description                                                                                                           | Type                                                                  | Défaut                                        |
 |-----------------------|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------|
-|configurator           |ID de composant de configurateur d'app config. Le tableau de configuration ou l'objet du configurateur                 |string|array|ymaker\social\share\configurators\ConfiguratorInterface   |-                                              |
+|configurator           |ID de composant de configurateur d'app config. Le tableau de configuration ou l'objet du configurateur                 |string|array|svfolder\social\share\configurators\ConfiguratorInterface   |-                                              |
 |url                    |URL absolu pour partager la page                                                                                       |string                                                                 |Result of `Url::to('', true)`                  |
 |title                  |Le titulaire de la page du partage                                                                                     |string                                                                 |-                                              |
 |description            |La description de la page                                                                                              |string                                                                 |-                                              |
@@ -30,10 +30,10 @@
 
 ```php
 'driverProperties' => [
-    \ymaker\social\share\drivers\Twitter::class => [
+    \svfolder\social\share\drivers\Twitter::class => [
         'account' => 'yiimaker'
     ],
-    \ymaker\social\share\drivers\Tumblr::class => [
+    \svfolder\social\share\drivers\Tumblr::class => [
         'shareUrl' => \common\helpers\UrlHelper::gallaryPageUrl(),
         'tags' => ['apartments', 'planning'],
     ],

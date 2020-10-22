@@ -4,7 +4,7 @@ L’utilisation de base
 ## Appelez le widget dans le fichier affiché
 
 ```php
-<?= \ymaker\social\share\widgets\SocialShare::widget([
+<?= \svfolder\social\share\widgets\SocialShare::widget([
     'configurator'  => 'socialShare',
     'url'           => \yii\helpers\Url::to('absolute/route/to/page', true),
     'title'         => 'Title of the page',

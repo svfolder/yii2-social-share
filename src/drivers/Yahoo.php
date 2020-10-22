@@ -5,9 +5,9 @@
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\social\share\drivers;
+namespace svfolder\social\share\drivers;
 
-use ymaker\social\share\base\AbstractMailDriver;
+use svfolder\social\share\base\AbstractMailDriver;
 
 /**
  * Driver for Yahoo.

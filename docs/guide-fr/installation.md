@@ -27,15 +27,15 @@ Pour utiliser cette extension juste ajoutez le code suivant dans votre configura
 'components' => [
     // ...
     'socialShare' => [
-        'class' => \ymaker\social\share\configurators\Configurator::class,
+        'class' => \svfolder\social\share\configurators\Configurator::class,
         'socialNetworks' => [
             'facebook' => [
-                'class' => \ymaker\social\share\drivers\Facebook::class,
+                'class' => \svfolder\social\share\drivers\Facebook::class,
                 'label' => Yii::t('app', 'Facebook'),
                 'options' => ['class' => 'fb'],
             ],
             'twitter' => [
-                'class' => \ymaker\social\share\drivers\Twitter::class,
+                'class' => \svfolder\social\share\drivers\Twitter::class,
                 'label' => Yii::t('app', 'Twitter'),
                 'options' => ['class' => 'tw'],
                 'config' => [
@@ -43,7 +43,7 @@ Pour utiliser cette extension juste ajoutez le code suivant dans votre configura
                 ],
             ],
             'googlePlus' => [
-                'class' => \ymaker\social\share\drivers\GooglePlus::class,
+                'class' => \svfolder\social\share\drivers\GooglePlus::class,
                 'label' => Yii::t('app', '+Google'),
                 'options' => ['class' => 'gp'],
             ],

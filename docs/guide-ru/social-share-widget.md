@@ -31,10 +31,10 @@ Social share виджет
 
 ```php
 'driverProperties' => [
-    \ymaker\social\share\drivers\Twitter::class => [
+    \svfolder\social\share\drivers\Twitter::class => [
         'account' => 'yiimaker'
     ],
-    \ymaker\social\share\drivers\Tumblr::class => [
+    \svfolder\social\share\drivers\Tumblr::class => [
         'shareUrl' => \common\helpers\UrlHelper::gallaryPageUrl(),
         'tags' => ['apartments', 'planning'],
     ],

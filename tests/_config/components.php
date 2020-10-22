@@ -1,49 +1,49 @@
 <?php
 
-use ymaker\social\share\configurators\Configurator;
+use svfolder\social\share\configurators\Configurator;
 
 $drivers = [
     'vkontakte' => [
-        'class' => \ymaker\social\share\drivers\Vkontakte::class,
+        'class' => \svfolder\social\share\drivers\Vkontakte::class,
     ],
     'facebook' => [
-        'class' => \ymaker\social\share\drivers\Facebook::class,
+        'class' => \svfolder\social\share\drivers\Facebook::class,
     ],
     'twitter' => [
-        'class' => \ymaker\social\share\drivers\Twitter::class,
+        'class' => \svfolder\social\share\drivers\Twitter::class,
     ],
     'googlePlus' => [
-        'class' => \ymaker\social\share\drivers\GooglePlus::class,
+        'class' => \svfolder\social\share\drivers\GooglePlus::class,
     ],
     'linkedin' => [
-        'class' => \ymaker\social\share\drivers\LinkedIn::class,
+        'class' => \svfolder\social\share\drivers\LinkedIn::class,
     ],
     'pinterest' => [
-        'class' => \ymaker\social\share\drivers\Pinterest::class,
+        'class' => \svfolder\social\share\drivers\Pinterest::class,
     ],
     'telegram' => [
-        'class' => \ymaker\social\share\drivers\Telegram::class,
+        'class' => \svfolder\social\share\drivers\Telegram::class,
     ],
     'viber' => [
-        'class' => \ymaker\social\share\drivers\Viber::class,
+        'class' => \svfolder\social\share\drivers\Viber::class,
     ],
     'whatsApp' => [
-        'class' => \ymaker\social\share\drivers\WhatsApp::class,
+        'class' => \svfolder\social\share\drivers\WhatsApp::class,
     ],
     'gmail' => [
-        'class' => \ymaker\social\share\drivers\Gmail::class,
+        'class' => \svfolder\social\share\drivers\Gmail::class,
     ],
     'tumblr' => [
-        'class' => \ymaker\social\share\drivers\Tumblr::class,
+        'class' => \svfolder\social\share\drivers\Tumblr::class,
     ],
     'yahoo' => [
-        'class' => \ymaker\social\share\drivers\Yahoo::class,
+        'class' => \svfolder\social\share\drivers\Yahoo::class,
     ],
     'odnoklassniki' => [
-        'class' => \ymaker\social\share\drivers\Odnoklassniki::class,
+        'class' => \svfolder\social\share\drivers\Odnoklassniki::class,
     ],
     'trello' => [
-        'class' => \ymaker\social\share\drivers\Trello::class,
+        'class' => \svfolder\social\share\drivers\Trello::class,
     ],
 ];
 

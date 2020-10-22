@@ -5,7 +5,7 @@
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\social\share\widgets;
+namespace svfolder\social\share\widgets;
 
 use Yii;
 use yii\base\Widget;
@@ -14,16 +14,18 @@ use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Inflector;
 use yii\helpers\Url;
-use ymaker\social\share\assets\SocialIconsAsset;
-use ymaker\social\share\configurators\ConfiguratorInterface;
-use ymaker\social\share\configurators\IconsConfigInterface;
-use ymaker\social\share\configurators\SeoConfigInterface;
+use svfolder\social\share\assets\SocialIconsAsset;
+use svfolder\social\share\configurators\ConfiguratorInterface;
+use svfolder\social\share\configurators\IconsConfigInterface;
+use svfolder\social\share\configurators\SeoConfigInterface;
 
 /**
  * Widget for rendering the share links.
  *
- * @author Vladimir Kuprienko <vldmr.kuprienko@gmail.com>
  * @since 1.0
+ *
+ * @author Vladimir Kuprienko <vldmr.kuprienko@gmail.com>
+ * @property-read array $linkList
  */
 class SocialShare extends Widget
 {
@@ -186,7 +188,7 @@ class SocialShare extends Widget
      *
      * @param array $config Configuration for driver.
      *
-     * @return \ymaker\social\share\base\AbstractDriver
+     * @return \svfolder\social\share\base\AbstractDriver
      *
      * @throws \yii\base\InvalidConfigException
      */

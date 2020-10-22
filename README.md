@@ -70,16 +70,16 @@ Configure social networks in config file
     'components' => [
         // ...
         'socialShare' => [
-            'class' => \ymaker\social\share\configurators\Configurator::class,
+            'class' => \svfolder\social\share\configurators\Configurator::class,
             'socialNetworks' => [
                 'vkontakte' => [
-                    'class' => \ymaker\social\share\drivers\Vkontakte::class,
+                    'class' => \svfolder\social\share\drivers\Vkontakte::class,
                 ],
                 'facebook' => [
-                    'class' => \ymaker\social\share\drivers\Facebook::class,
+                    'class' => \svfolder\social\share\drivers\Facebook::class,
                 ],
                 'odnoklasniki' => [
-                    'class' => \ymaker\social\share\drivers\Odnoklassniki::class,
+                    'class' => \svfolder\social\share\drivers\Odnoklassniki::class,
                 ],
             ],
         ],
@@ -90,7 +90,7 @@ Configure social networks in config file
 and then call widget in view file
 
 ```php
-<?= \ymaker\social\share\widgets\SocialShare::widget([
+<?= \svfolder\social\share\widgets\SocialShare::widget([
     'configurator'  => 'socialShare',
     'url'           => \yii\helpers\Url::to('absolute/route/to/page', true),
     'title'         => 'Title of the page',

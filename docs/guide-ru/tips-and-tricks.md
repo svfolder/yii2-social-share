@@ -7,10 +7,10 @@
 'components' => [
     // ...
     'socialShare' => [
-        'class' => \ymaker\social\share\configurators\Configurator::class,
+        'class' => \svfolder\social\share\configurators\Configurator::class,
         'socialNetworks' => [
             'facebook' => [
-                'class' => \ymaker\social\share\drivers\Facebook::class,
+                'class' => \svfolder\social\share\drivers\Facebook::class,
                 'label' => \yii\helpers\Html::tag('i', '', ['class' => 'icon-fb']),
             ],
             // ...
@@ -25,10 +25,10 @@
 'components' => [
     // ...
     'socialShare' => [
-        'class' => \ymaker\social\share\configurators\Configurator::class,
+        'class' => \svfolder\social\share\configurators\Configurator::class,
         'socialNetworks' => [
             'facebook' => [
-                'class' => \ymaker\social\share\drivers\Facebook::class,
+                'class' => \svfolder\social\share\drivers\Facebook::class,
                 'label' => Yii::t('app', 'Facebook'),
             ],
             // ...
@@ -47,10 +47,10 @@
 'components' => [
     // ...
     'socialShare' => [
-        'class' => \ymaker\social\share\configurators\Configurator::class,
+        'class' => \svfolder\social\share\configurators\Configurator::class,
         'enableIcons' => true,
         'icons' => [
-            \ymaker\social\share\drivers\Facebook::class => 'my-facebook-icon',
+            \svfolder\social\share\drivers\Facebook::class => 'my-facebook-icon',
         ],
     ],
 ],
@@ -64,35 +64,35 @@
 'components' => [
     // ...
     'socialShareBlog' => [
-        'class' => \ymaker\social\share\configurators\Configurator::class,
+        'class' => \svfolder\social\share\configurators\Configurator::class,
         'socialNetworks' => [
             'facebook' => [
-                'class' => \ymaker\social\share\drivers\Facebook::class,
+                'class' => \svfolder\social\share\drivers\Facebook::class,
                 'label' => Yii::t('app', 'Facebook'),
             ],
             'twitter' => [
-                'class' => \ymaker\social\share\drivers\Twitter::class,
+                'class' => \svfolder\social\share\drivers\Twitter::class,
                 'label' => Yii::t('app', 'Twitter'),
             ],
             'googlePlus' => [
-                'class' => \ymaker\social\share\drivers\GooglePlus::class,
+                'class' => \svfolder\social\share\drivers\GooglePlus::class,
                 'label' => Yii::t('app', '+Google'),
             ],
         ],
     ],
     'socialShareMessangers', => [
-        'class' => \ymaker\social\share\configurators\Configurator::class,
+        'class' => \svfolder\social\share\configurators\Configurator::class,
         'socialNetworks' => [
             'telegram' => [
-                'class' => \ymaker\social\share\drivers\other\Telegram::class,
+                'class' => \svfolder\social\share\drivers\other\Telegram::class,
                 'label' => Yii::t('app', 'Telegram'),
             ],
             'viber' => [
-                'class' => \ymaker\social\share\drivers\other\mobile\Viber::class,
+                'class' => \svfolder\social\share\drivers\other\mobile\Viber::class,
                 'label' => Yii::t('app', 'Viber'),
             ],
             'whatsApp' => [
-                'class' => \ymaker\social\share\drivers\other\mobile\WhatsApp::class,
+                'class' => \svfolder\social\share\drivers\other\mobile\WhatsApp::class,
                 'label' => Yii::t('app', 'Whats app'),
             ],
         ],
@@ -105,7 +105,7 @@
 ```php
 // blog-article.php файл представления
 
-<?= \ymaker\social\share\widgets\SocialShare::widget([
+<?= \svfolder\social\share\widgets\SocialShare::widget([
     'configurator'  => 'socialShareBlog', // ID нужного компонента
     'url'           => \yii\helpers\Url::to('/blog', true),
     'title'         => 'Blog page',
@@ -117,7 +117,7 @@
 ```php
 // main.php лэйаут файл
 
-<?= \ymaker\social\share\widgets\SocialShare::widget([
+<?= \svfolder\social\share\widgets\SocialShare::widget([
     'configurator'  => 'socialShareMessangers', // ID нужного компонента
     'url'           => \yii\helpers\Url::to('/', true),
     'title'         => 'Site name',

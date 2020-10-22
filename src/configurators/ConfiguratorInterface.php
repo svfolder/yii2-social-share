@@ -5,7 +5,7 @@
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\social\share\configurators;
+namespace svfolder\social\share\configurators;
 
 /**
  * Interface of configurators of social network drivers.

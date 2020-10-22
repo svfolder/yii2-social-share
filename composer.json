@@ -1,5 +1,5 @@
 {
-  "name": "yiimaker/yii2-social-share",
+  "name": "svfolder/yii2-social-share",
   "description": "Extension for sharing on social networks",
   "keywords": ["yii2", "widget", "social", "share", "networks", "media"],
   "type": "yii2-extension",
@@ -31,12 +31,12 @@
   },
   "autoload": {
     "psr-4": {
-      "ymaker\\social\\share\\": "src/"
+      "svfolder\\social\\share\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ymaker\\social\\share\\tests\\": "tests/"
+      "svfolder\\social\\share\\tests\\": "tests/"
     }
   },
   "extra": {

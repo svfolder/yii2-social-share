@@ -5,12 +5,12 @@
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\social\share\tests\unit\drivers;
+namespace svfolder\social\share\tests\unit\drivers;
 
 use Codeception\Test\Unit;
 use Yii;
-use ymaker\social\share\base\AbstractDriver;
-use ymaker\social\share\drivers\Twitter;
+use svfolder\social\share\base\AbstractDriver;
+use svfolder\social\share\drivers\Twitter;
 
 /**
  * Test case for [[Twitter]] driver.

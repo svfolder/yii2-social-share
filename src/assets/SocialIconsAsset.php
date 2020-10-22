@@ -5,7 +5,7 @@
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\social\share\assets;
+namespace svfolder\social\share\assets;
 
 use yii\web\AssetBundle;
 

@@ -3,10 +3,10 @@
 
 Si vous voulez créer votre propre pilote de réseaux sociaux, vous devez:
 
-1. Créer la classe et hériter cette classe de `\ymaker\social\share\base\AbstractDriver`
+1. Créer la classe et hériter cette classe de `\svfolder\social\share\base\AbstractDriver`
 
 ```php
-use ymaker\social\share\base\AbstractDriver;
+use svfolder\social\share\base\AbstractDriver;
 
 class LinkedIn extends AbstractDriver
 {
@@ -16,7 +16,7 @@ class LinkedIn extends AbstractDriver
 2. Mettre en œuvre les deux méthodes
 
 ```php
-use ymaker\social\share\base\AbstractDriver;
+use svfolder\social\share\base\AbstractDriver;
 
 class LinkedIn extends AbstractDriver
 {
@@ -96,7 +96,7 @@ Maintenant, vous pouvez utiliser ce pilote dans le configurateur
 'components' => [
     // ...
     'socialShare' => [
-        'class' => \ymaker\social\share\configurators\Configurator::class,
+        'class' => \svfolder\social\share\configurators\Configurator::class,
         'socialNetworks' => [
             'linkedIn' => [
                 'class' => \namespace\of\my\driver\LinkedIn::class,

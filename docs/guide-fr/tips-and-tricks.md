@@ -7,10 +7,10 @@ Les trucs et astuces
 'components' => [
     // ...
     'socialShare' => [
-        'class' => \ymaker\social\share\configurators\Configurator::class,
+        'class' => \svfolder\social\share\configurators\Configurator::class,
         'socialNetworks' => [
             'facebook' => [
-                'class' => \ymaker\social\share\drivers\Facebook::class,
+                'class' => \svfolder\social\share\drivers\Facebook::class,
                 'label' => \yii\helpers\Html::tag('i', '', ['class' => 'icon-fb']),
             ],
             // ...
@@ -25,10 +25,10 @@ Les trucs et astuces
 'components' => [
     // ...
     'socialShare' => [
-        'class' => \ymaker\social\share\configurators\Configurator::class,
+        'class' => \svfolder\social\share\configurators\Configurator::class,
         'socialNetworks' => [
             'facebook' => [
-                'class' => \ymaker\social\share\drivers\Facebook::class,
+                'class' => \svfolder\social\share\drivers\Facebook::class,
                 'label' => Yii::t('app', 'Facebook'),
             ],
             // ...
@@ -46,10 +46,10 @@ Pour les autres réseaux sociaux utilisez les icônes par défaut.
 'components' => [
     // ...
     'socialShare' => [
-        'class' => \ymaker\social\share\configurators\Configurator::class,
+        'class' => \svfolder\social\share\configurators\Configurator::class,
         'enableIcons' => true,
         'icons' => [
-            \ymaker\social\share\drivers\Facebook::class => 'my-facebook-icon',
+            \svfolder\social\share\drivers\Facebook::class => 'my-facebook-icon',
         ],
     ],
 ],
@@ -63,35 +63,35 @@ Installez certains composants du partage sur les réseaux sociaux dans l’app c
 'components' => [
     // ...
     'socialShareBlog' => [
-        'class' => \ymaker\social\share\configurators\Configurator::class,
+        'class' => \svfolder\social\share\configurators\Configurator::class,
         'socialNetworks' => [
             'facebook' => [
-                'class' => \ymaker\social\share\drivers\Facebook::class,
+                'class' => \svfolder\social\share\drivers\Facebook::class,
                 'label' => Yii::t('app', 'Facebook'),
             ],
             'twitter' => [
-                'class' => \ymaker\social\share\drivers\Twitter::class,
+                'class' => \svfolder\social\share\drivers\Twitter::class,
                 'label' => Yii::t('app', 'Twitter'),
             ],
             'googlePlus' => [
-                'class' => \ymaker\social\share\drivers\GooglePlus::class,
+                'class' => \svfolder\social\share\drivers\GooglePlus::class,
                 'label' => Yii::t('app', '+Google'),
             ],
         ],
     ],
     'socialShareMessangers', => [
-        'class' => \ymaker\social\share\configurators\Configurator::class,
+        'class' => \svfolder\social\share\configurators\Configurator::class,
         'socialNetworks' => [
             'telegram' => [
-                'class' => \ymaker\social\share\drivers\other\Telegram::class,
+                'class' => \svfolder\social\share\drivers\other\Telegram::class,
                 'label' => Yii::t('app', 'Telegram'),
             ],
             'viber' => [
-                'class' => \ymaker\social\share\drivers\other\mobile\Viber::class,
+                'class' => \svfolder\social\share\drivers\other\mobile\Viber::class,
                 'label' => Yii::t('app', 'Viber'),
             ],
             'whatsApp' => [
-                'class' => \ymaker\social\share\drivers\other\mobile\WhatsApp::class,
+                'class' => \svfolder\social\share\drivers\other\mobile\WhatsApp::class,
                 'label' => Yii::t('app', 'Whats app'),
             ],
         ],
@@ -104,7 +104,7 @@ Appelez le widget avec le composant exigé dans  le fichier affiché
 ```php
 // blog-article.php view file
 
-<?= \ymaker\social\share\widgets\SocialShare::widget([
+<?= \svfolder\social\share\widgets\SocialShare::widget([
     'configurator'  => 'socialShareBlog', // Social share component ID
     'url'           => \yii\helpers\Url::to('/blog', true),
     'title'         => 'Blog page',
@@ -116,7 +116,7 @@ Appelez le widget avec le composant exigé dans  le fichier affiché
 ```php
 // main.php layout file
 
-<?= \ymaker\social\share\widgets\SocialShare::widget([
+<?= \svfolder\social\share\widgets\SocialShare::widget([
     'configurator'  => 'socialShareMessangers', // Social share component ID
     'url'           => \yii\helpers\Url::to('/', true),
     'title'         => 'Site name',

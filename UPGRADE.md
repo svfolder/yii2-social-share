@@ -11,7 +11,7 @@ Upgrade from 1.x to 2.x
 
 * Base class for drivers `Driver` renamed to `AbstractDriver`
 
-* Move all drivers to `ymaker\social\share\drivers` namespace.
+* Move all drivers to `svfolder\social\share\drivers` namespace.
 
 * Updates API of `AbstractDriver` class:
 

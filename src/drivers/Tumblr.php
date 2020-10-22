@@ -5,10 +5,10 @@
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\social\share\drivers;
+namespace svfolder\social\share\drivers;
 
 use yii\base\InvalidConfigException;
-use ymaker\social\share\base\AbstractDriver;
+use svfolder\social\share\base\AbstractDriver;
 
 /**
  * Driver for Tumblr.

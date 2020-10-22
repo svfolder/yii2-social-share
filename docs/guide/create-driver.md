@@ -3,10 +3,10 @@ Create my social network driver
 
 For creating driver for social network you should:
 
-1. Create class and inherit it from `\ymaker\social\share\base\AbstractDriver`
+1. Create class and inherit it from `\svfolder\social\share\base\AbstractDriver`
 
 ```php
-use ymaker\social\share\base\AbstractDriver;
+use svfolder\social\share\base\AbstractDriver;
 
 class LinkedIn extends AbstractDriver
 {
@@ -16,7 +16,7 @@ class LinkedIn extends AbstractDriver
 2. And implement two methods
 
 ```php
-use ymaker\social\share\base\AbstractDriver;
+use svfolder\social\share\base\AbstractDriver;
 
 class LinkedIn extends AbstractDriver
 {
@@ -96,7 +96,7 @@ Now you can use this driver in configurator
 'components' => [
     // ...
     'socialShare' => [
-        'class' => \ymaker\social\share\configurators\Configurator::class,
+        'class' => \svfolder\social\share\configurators\Configurator::class,
         'socialNetworks' => [
             'linkedIn' => [
                 'class' => \namespace\of\my\driver\LinkedIn::class,

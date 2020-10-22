@@ -3,10 +3,10 @@
 
 Для создания драйвера для социальный сети вам необходимо:
 
-1. Создать класс и унаследовать его от `\ymaker\social\share\base\AbstractDriver`
+1. Создать класс и унаследовать его от `\svfolder\social\share\base\AbstractDriver`
 
 ```php
-use ymaker\social\share\base\AbstractDriver;
+use svfolder\social\share\base\AbstractDriver;
 
 class LinkedIn extends AbstractDriver
 {
@@ -16,7 +16,7 @@ class LinkedIn extends AbstractDriver
 2. Реализовать два метода
 
 ```php
-use ymaker\social\share\base\AbstractDriver;
+use svfolder\social\share\base\AbstractDriver;
 
 class LinkedIn extends AbstractDriver
 {
@@ -96,7 +96,7 @@ protected function getMetaTags()
 'components' => [
     // ...
     'socialShare' => [
-        'class' => \ymaker\social\share\configurators\Configurator::class,
+        'class' => \svfolder\social\share\configurators\Configurator::class,
         'socialNetworks' => [
             'linkedIn' => [
                 'class' => \namespace\of\my\driver\LinkedIn::class,

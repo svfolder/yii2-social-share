@@ -22,8 +22,8 @@ Le configurateur
 ```php
 'enableIcons' => true,
 'icons' => [
-    \ymaker\social\share\drivers\Twitter::class => 'icon-twitter', // CSS classe
-    \ymaker\social\share\drivers\Facebook::class => 'icon-facebook',  // CSS classe
+    \svfolder\social\share\drivers\Twitter::class => 'icon-twitter', // CSS classe
+    \svfolder\social\share\drivers\Facebook::class => 'icon-facebook',  // CSS classe
 ],
 ```
 
